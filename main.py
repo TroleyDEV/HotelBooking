@@ -1,8 +1,13 @@
+import pandas
+
+db = pandas.read_csv("hotels.csv")
+
+
 class Hotel:
     def book(self):
         pass
 
 
-class ReservationTicker:
+class ReservationTicket:
     def generate(self):
         pass
