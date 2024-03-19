@@ -4,7 +4,7 @@ df = pandas.read_csv("hotels.csv")
 
 
 class Hotel:
-    def __init__(self, id):
+    def __init__(self, hotel_id):
         pass
 
     def book(self):
