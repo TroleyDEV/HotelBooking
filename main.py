@@ -1,9 +1,8 @@
-import pandas
 import pandas as pd
 
 df = pd.read_csv("hotels.csv", dtype={"id": str})
 df_cards = pd.read_csv("cards.csv", dtype=str).to_dict(orient="records")
-df_cards_security = pandas.read_csv("card_security.csv", dtype=str)
+df_cards_security = pd.read_csv("card_security.csv", dtype=str)
 
 
 class Hotel:
